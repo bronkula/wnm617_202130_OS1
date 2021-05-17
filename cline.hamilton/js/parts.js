@@ -29,6 +29,7 @@ const makeAnimalInfo = o => `
 <div class="animal-name">${o.name}</div>
 <div class="animal-type">${o.type}</div>
 <div class="animal-breed">${o.breed}</div>
+<div class="animal-description"><p>${o.description}</p></div>
 <button class="form-button animal-delete" data-id="${o.id}">Delete</button>
 `;
 
